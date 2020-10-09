@@ -1,104 +1,27 @@
-# Creative portfolio theme for hugo
+# Fresh
 
-[![Build Status](https://travis-ci.org/kishaningithub/hugo-creative-portfolio-theme.svg?branch=master)](https://travis-ci.org/kishaningithub/hugo-creative-portfolio-theme)
-[![Join the chat at https://gitter.im/hugo-creative-portfolio-theme/Lobby](https://badges.gitter.im/hugo-creative-portfolio-theme/Lobby.svg)](https://gitter.im/hugo-creative-portfolio-theme/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Buy me a coffee](https://img.shields.io/badge/☕-Buy%20me%20a%20coffee-blue.svg)](https://www.paypal.me/kishansh/5)
+A personal theme with a blog for Stackbit. [Live Demo](https://themes.stackbit.com/demos/fresh)
 
-Creative portfolio is a clean and elegant template mainly made for designers and creatives but can be easily transformed into a generic website.
+Click the button below to use this theme in Gatsby, Hugo or Jekyll via the Stackbit site builder:
 
-This Hugo theme was ported from [Bootstrapious](https://bootstrapious.com/p/creative-portfolio) for training and fun. It has a very nice landing page, a comments system by Disqus, contact forms by Formspree and Google Analytics.
+[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-fresh)
 
-![screenshot](https://raw.githubusercontent.com/kishaningithub/hugo-creative-portfolio-theme/master/images/screenshot.png)
+### About Stackbit
 
-## Installation
+[Stackbit](https://www.stackbit.com/) enables features like inline content editing, live previews and collaboration tools for Jamstack sites.
 
-Go to the directory where you have your Hugo site and run:
+## Working with This Theme
 
-```bash
-mkdir themes
-cd themes
-git clone https://github.com/kishaningithub/hugo-creative-portfolio-theme.git
-rm -rf hugo-creative-portfolio-theme/.git
-```
+This theme is written in [Unibit](https://docs.stackbit.com/unibit/), which is designed to transpile themes to work with multiple static site generators (SSG) such as Jekyll, Hugo & Gatsby.
 
-For more information read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
+If you are looking to use this theme on a specific SSG, it is recommended that you use the [Stackbit site builder](https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-fresh) to generate the theme. The site builder will generate the SSG-specific source to your own GitHub repository. You are free to use and modify the generated source however you wish.
 
-## Configuration
+### Editing This Theme
 
-After installing the Creative portfolio theme successfully, i recommend you to take a look at the [exampleSite](https://github.com/kishaningithub/hugo-creative-portfolio-theme/tree/master/exampleSite) directory. You will find a working Hugo site configured with the Creative portfolio theme that you can use as a starting point for your site.
+While we recommend using the [site builder](https://app.stackbit.com/create?theme=https://github.com/stackbithq/stackbit-theme-fresh) to generate a version of the theme for any of the supported static site generators, you can develop locally using the Unibit CLI.  For details on how to install and use Unibit, visit the [documentation](https://docs.stackbit.com/site-builder/unibit/).
 
-First, let's take a look at the [config.toml](https://github.com/kishaningithub/hugo-creative-portfolio-theme/tree/master/exampleSite/config.toml). It will be useful to learn how to customize your site. Feel free to play around with the settings.
+### Develop Using CodeSandbox
 
-### Style
+You can also develop this theme in the browser using Unibit via CodeSandbox.
 
-You can change the color of the theme by modifying the following key.
-
-```toml
-style = "default"
-```
-
-Available options are: `default` (pink), `blue`, `green`, `pink`, `red`, `sea`, `violet`.
-
-### More style customizations?
-
-Create `css/custom.css` in your `<<base dir>>/static` folder and add all your custom styling.
-
-### Comments
-
-The optional comments system is powered by [Disqus](https://disqus.com). If you want to enable comments, create an account in Disqus and write down your shortname.
-
-```toml
-disqusShortname = "your-disqus-short-name"
-```
-
-You can disable the comments system by leaving the `disqusShortname` empty.
-
-### Google Analytics
-
-You can optionally enable Google Analytics. Type your tracking code in the ``.
-
-```toml
-googleAnalytics = "UA-XXXXX-X"
-```
-
-Leave the `googleAnalytics` key empty to disable it.
-
-### Make the contact form working
-
-Since this page will be static, you can use [formspree.io](//formspree.io/) as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Begin the setup by following the steps below:
-
-1. Enter your email address under 'email' in the [`config.toml`](https://github.com/kishaningithub/hugo-creative-portfolio-theme/tree/master/exampleSite/config.toml)
-2. Upload the generated site to your server
-3. Send a dummy email yourself to confirm your account
-4. Click the confirm link in the email from [formspree.io](//formspree.io/)
-5. You're done. Happy mailing!
-
-### Nearly finished
-
-In order to see your site in action, run Hugo's built-in local server.
-
-```bash
-hugo server
-```
-
-Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
-
-## Deployment
-
-- [Deploying to Amazon S3](https://github.com/kishaningithub/hugo-creative-portfolio-theme/wiki/Deploying-to-Amazon-S3)
-
-## Base theme version (From bootstrapious)
-
-- 1.0
-
-## Contributing
-
-Have you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](https://github.com/kishaningithub/hugo-creative-portfolio-theme/issues) to let me know. Or make directly a [pull request](https://github.com/kishaningithub/hugo-creative-portfolio-theme/pulls).
-
-## License
-
-This port is released under the MIT License. Check the [original theme license](https://bootstrapious.com/p/creative-portfolio) for additional licensing information.
-
-## Thanks
-
-Thanks to [Steve Francia](https://github.com/spf13) for creating Hugo and the awesome community around the project. And also thanks to [Bootstrapious](http://bootstrapious.com/) for creating this awesome theme.
+[Fork in CodeSandbox](https://codesandbox.io/s/github/stackbithq/stackbit-theme-fresh)
